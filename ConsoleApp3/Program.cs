@@ -15,8 +15,8 @@ namespace ConsoleApp3
             int rowCount;
             int extraPictures;
 
-            rowCount = 52 / 3;
-            extraPictures = 52 % 3;
+            rowCount = countPicture / rowLenght;
+            extraPictures = countPicture % rowLenght;
             Console.WriteLine("рядов заполнено:" + rowCount + " лишних картин: " + extraPictures);
             Console.ReadKey();
         }
